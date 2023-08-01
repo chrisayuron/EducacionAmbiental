@@ -73,7 +73,7 @@ main {
 }
 main p{
     padding: 1rem ;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 footer {
