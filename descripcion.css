@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html,body{
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 600;
+    padding: 10px;
+
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+nav a:hover{
+    background-color: blue;
+    color: #fff;
+    
+}
+
+.selected{
+    background-color: blue;
+    color: #fff;
+    position: relative;
+    padding: 2px 10px;
+}
+section {
+    background-image: url("https://www.floridablanca.gov.co/publicaciones/10/presentacion/info/floridablanca_se/media/galeria1193.jpg");
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    height: 25vh;
+    
+}
+.fondo{
+    background-color: #00000052;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo {
+    font-size: 1.2rem;  
+}
+h1 {
+    font-size: 4rem;
+   text-transform: uppercase;
+}
+main {
+    padding: 40px;
+} 
+main p{
+    padding-bottom: 0.5rem;
+    text-align: justify;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
